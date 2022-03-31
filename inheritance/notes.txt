@@ -1,0 +1,7 @@
+inheritance:
+---------------
+It's an important part of css,and it almost exclusively applies to text by default
+
+
+we can set the font-family on the body and it will flow through the entire document
+we can set the color for each section and it will apply to everything inside the section

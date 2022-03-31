@@ -1,0 +1,20 @@
+flex shorthand property
+ flex: grow shrink basis;
+ the default value for flex is
+  flex: 0 1 auto;
+  
+  if we do so
+   flex: 1 0;
+    /* grow: 1, flex-basis: 0 */
+    if we do so
+    
+    
+    flex:400px
+    it assumes as it's flex basis as it has a unit value in this case px
+    
+    if we do so   flex: auto it automatically switch the thing like shown below
+    flex: 1 1 auto;
+    
+    
+    
+    

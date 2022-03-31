@@ -1,0 +1,22 @@
+border-image
+-----------
+like background image we can also use border image like this
+
+  border-top: 5px solid #F18119;
+border-image: linear-gradient(to left, red, blue) 1;
+
+here the 1 is important this is called slice, if we don't put it the border won't be shown
+    
+    
+    
+.top-text {
+    font-size: 0.625rem;
+    margin: 0;
+    padding-top: 2px;
+    color: #F18119;
+    font-weight: 900;
+    text-transform: uppercase;
+    order: -1;
+    border-top: 5px solid #F18119;
+    border-image: linear-gradient(to left, red, blue) 1;
+}

@@ -1,0 +1,8 @@
+how to decide which unit to use:
+----------------------------------
+kevin's general rule of thumb:
+* font-size=rem
+* padding and margin = rem
+* widths:em or percentage
+
+but we can change it according to our need

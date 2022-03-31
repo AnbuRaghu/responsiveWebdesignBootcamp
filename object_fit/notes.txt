@@ -1,0 +1,11 @@
+object-fit:cover
+-------------------
+cover crops our image inside of the space we give
+object-position property tells which part of the image should be kept or shown in this case it keeps the left side of image
+
+ .article-image {
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+        object-position: left;
+    }

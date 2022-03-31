@@ -1,0 +1,8 @@
+form has a lot of default, we can overwrite them
+for example input elemetn has an default width on them
+so we can set it 100% if we want that to fit entire paents width
+
+input,
+ {
+    width: 100%;
+}

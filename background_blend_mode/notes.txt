@@ -1,0 +1,18 @@
+  background-blend-mode:
+  ----------------------
+  
+  if we wanna use   background-blend-mode:  we should have  background-image: and background-color
+  * if we wanna use more than 1 background image we can use it as comma seperated as shown below
+    background-image: url(images/ribs.jpg), linear-gradient(45deg,red, blue);
+  .intro {
+    background-image: url(images/ribs.jpg), linear-gradient(45deg,red, blue);
+     background-color: #ff0000; 
+    background-blend-mode: screen;
+    background-size: cover;
+    background-position: center;
+    padding: 0 .5em 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 50vh;
+}

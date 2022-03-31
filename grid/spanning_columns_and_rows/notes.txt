@@ -1,0 +1,10 @@
+spaning colums
+---------------------------
+instead of saying  grid-column: 1 / 2, we can use span like this
+   grid-column: span 3;
+
+we can also tell it's start line by default column and rows starts at the number 1
+grid-column: 2 / span 2;:it's starting at line number 2 and spanning 2 columns wider
+       
+we can also do the same thing for rows too
+grid-row: span 1;

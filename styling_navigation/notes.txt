@@ -1,0 +1,60 @@
+to style css we can
+
+ 
+ nav ul {
+     
+ }
+ 
+ nav ul li {.       !
+                    !  
+ }                  ! this is not prefered way bcz it makes performance issue instead use like                         ! below :not nesting
+                    !
+ nav ul li a {      !
+                    !    
+ }
+ 
+ nav a:hover {
+     
+ }
+ ---------------------------------------
+  
+ nav ul {
+     
+ }
+ 
+ nav  li {.       
+                     
+ }                  
+                    
+ nav  a {      
+                      
+ }
+ 
+ nav a:hover {
+     
+ }
+ -----------------------------------------
+  nav ul {
+     border: 1px solid magenta;
+     
+     list-style: none;
+     /* to turn off the space before ul means bullet reset padding:0*/
+     padding: 0;
+     display: flex;
+     justify-content: center;
+  
+ }
+ 
+ nav li {
+     border: 2px dotted orange;
+        /* to get margin between li*/
+     margin: 0 1em;
+ }
+ 
+ nav a {
+     border: 3px solid green;
+ }
+ 
+ nav a:hover {
+     
+ }

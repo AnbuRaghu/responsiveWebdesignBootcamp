@@ -1,0 +1,10 @@
+minmax()
+---------------
+when assigning a size to our grid-template-columns or rows,we don't have to give it a specific size
+using minmax() we can simply assign them a minimum and maximum size.
+
+we assign the two values inside of the parenthesis,sepereted by coma,
+we can use different values as shown below
+minmax(100px,300px)
+minmax(3em,10em)
+minmax(200px,50%)

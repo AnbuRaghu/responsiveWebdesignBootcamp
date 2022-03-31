@@ -1,0 +1,5 @@
+aria-label
+
+if we don't give a label for an input element,it's harder for screenreaders to read it. but we have a solution for that. we just have to add a aria-label and the name of the field like this
+
+<input aria-label="last name" id="lname" type="text" required placeholder="Enter your last name">

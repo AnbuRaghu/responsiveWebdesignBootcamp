@@ -1,0 +1,1 @@
+min-content will shrink things down to ba as small as possible they can be whereas max-content is really similar when we do display:flex, when we display flex everything shrink to fit the content likewise max-content does

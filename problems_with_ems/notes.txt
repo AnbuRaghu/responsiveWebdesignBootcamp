@@ -1,0 +1,26 @@
+the problem with em 
+----------------------------
+em units are very convenient for some things,but
+when we use them for the font-size of an element though,it can create a cascading effect
+
+body {
+    margin: 0;
+    font-size: 10px;
+    font-family: 'Lato', sans-serif;
+    color: #2e354f;
+}
+
+.section-one {
+    font-size: 2em;
+}
+
+ul {
+    /* 1.5em = 150% */
+    font-size: 1.5em;
+}
+
+li {
+    font-size: 1.5em;
+}
+
+in this case ul is the child of .section-one now the .section-one's font size 2 times bigger than it's parent means 20px and i set the ul's font-size 1.5 em means 1.5 times bigger than it's parent' font-size means 30px and the li is child of ul ul's font size now is 1.5 times bigger than it's parent means 30px so li is also 1.5 times bigger than it's parent menas 45px so it causes problems

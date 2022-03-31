@@ -1,0 +1,3 @@
+  align-items: flex-end;/* it works on every individual row */
+    align-content: flex-end;/* it works on all of the row of content*/
+       align-content works only if have multiple row of content it's imilar to justify content but it's working on the main axis whereas align-content works on cross axis

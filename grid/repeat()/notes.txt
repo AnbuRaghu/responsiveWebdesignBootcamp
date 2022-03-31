@@ -1,0 +1,9 @@
+repear()
+When defining our template-rows or template-columns if we have multiple columns that are the same width,we can use repeat()
+This makes our lives easier and can be very useful with the fr unit to quickly make multiple columns that are all the same size.
+
+first we define how many times we want to be reoeated and then the size.the two values must be comma seperated
+for example,if we want to create a four column grid
+example
+display:grid;
+grid-template-columns:repeat(4,300px)

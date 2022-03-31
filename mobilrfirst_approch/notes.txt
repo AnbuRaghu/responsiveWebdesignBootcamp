@@ -1,0 +1,14 @@
+/* set mq for big screens which is min-width to make mobile first*/
+@media (min-width: 675px) {
+    .container-flex {
+        flex-direction: row;
+    }
+    
+    main {
+        width: 75%;
+    }
+    
+    aside {
+        width: 20%;
+    }
+}

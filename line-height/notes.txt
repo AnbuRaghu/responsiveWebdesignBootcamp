@@ -1,0 +1,12 @@
+line-height:
+/* it will set the 1.6 time bigger than our actual font size. it's a inherit property so it affects all elements for example h1 p etc. so we have to set line height for them too individually if needed*/
+browser's default line height is 1.4
+
+
+body {
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.125rem;
+    font-weight: 300;
+    line-height: 1.6; 
+}

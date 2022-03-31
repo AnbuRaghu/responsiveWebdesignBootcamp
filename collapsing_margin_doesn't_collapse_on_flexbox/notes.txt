@@ -1,0 +1,1 @@
+intersting thing about flex box is collapsing margin is collapsing no more

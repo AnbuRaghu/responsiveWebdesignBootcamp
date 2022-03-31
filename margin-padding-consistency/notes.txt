@@ -1,0 +1,10 @@
+margin and padding consistency::
+...................................
+for consistency, often we  turn off the margin-top on typography related elements
+that way we can use padding on the parent, and know that exact spacing that we will have and can keep all sides consistent
+also,when we get into layouts with flexbox and grid margins no longer collapse,so this helps us stay more consistent.
+
+that could be painful,but we can include all the elemens in one selector like this
+h1,h2,h3,p{
+    margin-top:0
+}

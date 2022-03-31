@@ -1,0 +1,13 @@
+implicit and explicit rows and columns
+-----------------------------------------
+when we declare display:grid on an element,all the grid items are automatically placed inside of a row,even if we haven't created any yet.
+the dsame thing happens with the columns, though it will default to only have one column
+when we set up grid-template-columns and grid-template-rows,we are explicitly stating how big the must be
+
+sometimes columns and rows are created automatically
+these are implicit rows and columns
+but how big are these implicit rows and columns?
+they'll default to auto(the width and height of the content)
+if we want we can state how big we want them to be by using
+grid-auto-rows
+.grid-auto-columns

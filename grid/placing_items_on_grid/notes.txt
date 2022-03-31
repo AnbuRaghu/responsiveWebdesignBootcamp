@@ -1,0 +1,11 @@
+Placing items on the grid
+Content will place itself automatically on the grid.
+we can explicitely place items where we want them to be.
+
+we can tell grid items exactly where they live within their parent's grid with the following properties
+grid-column-start
+grid-column-end
+grid-row-start
+grid-row-end
+
+these 4 properties are placed on the grid items not on the parent

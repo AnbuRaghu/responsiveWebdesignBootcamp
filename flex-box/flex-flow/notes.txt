@@ -1,0 +1,4 @@
+flex-flow:
+it is for flex-direction and flex-wrap property. instead of writing them seperetly we can us flex-flow as shown below
+
+flex-flow:row wrap

@@ -1,0 +1,31 @@
+/*  Fonts
+    -----
+    font-family: 'Lora', serif;
+    font-family: 'Ubuntu', sans-serif;
+ */
+ 
+ nav ul {
+     border: 1px solid magenta;
+     
+     list-style: none;
+     /* to turn off the space before ul means bullet reset padding:0*/
+     padding: 0;
+     display: flex;
+     justify-content: center;
+  
+ }
+ 
+ nav li {
+     border: 2px dotted orange;
+        /* to get margin between li*/
+     margin: 0 1em;
+ }
+ 
+ nav a {
+     border: 3px solid green;
+ }
+ 
+ nav a:hover {
+     
+ }
+ 

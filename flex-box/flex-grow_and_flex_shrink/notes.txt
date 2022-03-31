@@ -1,0 +1,3 @@
+flex-grow and flex-shrink
+these both are individual flex-item properties
+    default value for flex grow is 0 and     default value for flex shrink  is 1 and if we put flex-shrink to 0 it never shrinks

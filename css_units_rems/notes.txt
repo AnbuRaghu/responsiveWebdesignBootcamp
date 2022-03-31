@@ -1,0 +1,40 @@
+to solve the problem with em, we can use rem:
+-----------------------------------------------
+
+The rem unit is short for Root Em
+that means instead of being  relative to it's parent,it's alwasy relative to the'root' of our document.
+The root of an html page is always the html element..it's better to use rem for font-sizes
+
+so we can set our font size like this
+html {
+    font-size: 62.5%; this means 10px it's common to declare font-size as 62.5%
+    but as per kevin leave the font-size of html by default whic means 100% by not declaring html{ fontsize:62.5% }
+}
+
+body {
+    margin: 0;
+    font-size: 1rem;// it's now 10px when we decare  html{ fontsize:62.5% },if we don't declare like this then font-size by default 16px
+    font-family: 'Lato', sans-serif;
+    color: #2e354f;
+}
+
+.section-one {
+    font-size: 2rem;
+}
+
+ul {
+    font-size: 1.5rem;
+}
+
+h1,
+h2,
+strong {
+    font-weight: 900;
+}
+
+/* Typography */
+
+h1 {
+    font-size: 3rem;
+    margin: 0;
+}

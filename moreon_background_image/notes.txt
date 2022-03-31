@@ -1,0 +1,10 @@
+background image
+ /* when we have a baground image it's recommended tpo have a background color.Bcz if the image doesn't load we have a fallback bg so that the text can appear*/
+ if we have backgrund color and background image. it's recommended to have background image on top of background-color
+ 
+ 
+.intro {
+    background-image: url(images/dark-ribs.jpg); 
+    background-color: #404040;
+    padding: 0 .25em 1em;
+}

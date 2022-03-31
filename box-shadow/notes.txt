@@ -1,0 +1,13 @@
+box-shadow
+-------------
+/* first is we set shadow is left or right if we set plus value shadow goes right if we set minus value shadow goes left likewise 2nd value is for setting shadow top or down plus and minus value plays arole like left right 3rd value is how long shadow should be*/
+
+
+e.g
+.main-image {
+    margin-bottom: 1.5em;
+    box-shadow: 80px -60px 100px black;
+    
+    
+    /* first is we set shadow is left or right if we set plus value shadow goes right if we set minus value shadow goes left likewise 2nd value is for setting shadow top or down plus and minus value plays arole like left right 3rd value is how long shadow should be*/
+}

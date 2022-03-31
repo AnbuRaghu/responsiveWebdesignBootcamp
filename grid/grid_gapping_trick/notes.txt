@@ -1,0 +1,4 @@
+@media (min-width: 600px) {
+    .card {
+        grid-template: 1em auto auto 150px 1em / 200px auto auto 0px;/* we can use 0px empty colum to adjust the gap*/
+        grid-gap: 0 1em;

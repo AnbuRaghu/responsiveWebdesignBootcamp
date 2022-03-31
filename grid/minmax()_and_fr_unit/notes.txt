@@ -1,0 +1,8 @@
+minmax and the fr unit
+------------------------
+when using grid,I tend to use fr a lot but we need to be careful with minmax()
+because of how thr fr unit works,we cannot use it as the minimum size
+we can't have fr as minimum size
+grid-template-columns: 200px 200px minmax(1fr, 500px); it won't work
+
+ grid-template-columns: 1fr minmax(200px, 1fr) 1fr; it works because fr is max value

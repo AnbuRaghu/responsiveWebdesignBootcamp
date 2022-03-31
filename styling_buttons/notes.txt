@@ -1,0 +1,14 @@
+inline-block
+...................
+sometimes we need something which can stay inline,but which we can set margins and padding on
+most common case is to create a button
+
+
+styling buttons:
+--------------------------
+1. put the class directly on your link
+2. always use padding to create the 'size' of the button and not width and height
+
+
+padding left and right needs to be a bigger number than the padding on the top and bottom
+in generel,kevin uses a 1:2.5 ratio for the top and sides..but it really depends on the button

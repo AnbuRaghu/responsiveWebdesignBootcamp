@@ -1,0 +1,3 @@
+negative margins
+------------------
+negative margins canbe used if only we needed as shown in the example here but if the text overlaps it causes problem just play ariund with the file

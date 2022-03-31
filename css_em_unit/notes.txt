@@ -1,0 +1,24 @@
+css-Relative units
+-----------------------
+Relative units are always relative either to a font-size or the size of view port.
+for those which are relative to a font-size,which font-size they are relative to depends on a few things,which complicate matters
+
+
+* The em and rem are considered relative bcz they are relative to the font-size of other elements
+* em are relative to their parent's font-size
+* font-size is an inherited property.so if you don't declare it anywhere.It's getting it from the     body(or the default which is normally 16px)
+
+body {
+    margin: 0;
+    font-size: 10px;
+    font-family: 'Lato', sans-serif;
+    color: #2e354f;
+}
+
+.section-one {
+    font-size: 20px;
+}
+ul {
+    /* 1.5em = 150%  of it's parent's font size*/
+    font-size: 1.5em; in this case ul's parent is .section-one so font-size will be 30px
+}

@@ -1,0 +1,4 @@
+* always divide colums based on the minimum content size in this case 4 colums
+*flex-start is the property to set the column to fit according to the size of the column,espeiallx 
+if it has background color 
+* to set the width for each column set a modifier class to the column and give width to them

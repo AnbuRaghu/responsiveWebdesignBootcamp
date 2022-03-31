@@ -1,0 +1,5 @@
+inline elwements:
+there are some important thing to know about inline elements
+1. you can only nest other inline elements in them(such as putting a link inside a strong element)
+2.they will only respect margin,padding and borders which are placed on the left or the right side,and not the top and bottom..you can't set width and height on an inline element
+but padding bottom and padding top, it pretend to accept but it always cause problems so alway don't inclue them

@@ -1,0 +1,14 @@
+aria-label is for sreen readers
+we set up close button.. we use html entity for x icon ehich is '&times;'
+
+
+.close-nav {
+    border: 0;
+    background: 0;
+    color: #FFE600;
+    font-weight: 700;
+    font-size: 3rem;
+    cursor: pointer;
+    padding: .5em;
+    position: absolute;
+}

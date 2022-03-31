@@ -1,0 +1,60 @@
+/*  Fonts
+-----
+font-family: 'Lora', serif;
+font-family: 'Ubuntu', sans-serif;
+*/
+
+body {
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* =================
+Typography
+================= */
+
+h1 {
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    color: #143774;
+    font-size: 2rem;
+    margin: 0;
+}
+
+.subtitle {
+    font-weight: 700;
+    color: #1792d2;
+    font-size: .75rem;
+     /* if we set the margin 0 here to avoid extra space on p it won't work bcz the extra space comes from the bottom of h1 which is margin-bottom..so we need to set the margin 0 to h1 as well to make it work*/
+    margin: 0;
+}
+ 
+header {
+    text-align: center;
+    background: #f8f8f8;
+    padding: 2em 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 1em;
+}
+
+nav a {
+    text-decoration: none;
+    color: #707070;
+    font-weight: 700;
+}
+
+nav a:hover,
+nav a:focus {
+    /* whenever we set hover we should set the focus too*/
+    color: #1792d2;
+}
+ 

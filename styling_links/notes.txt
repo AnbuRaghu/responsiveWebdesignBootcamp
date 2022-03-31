@@ -1,0 +1,22 @@
+styling links:
+................
+make sure when styling links,people know that you can interact with them.It should be very obvious..
+
+1.change the color on hover and focus
+2.leave the text decoration on or if you turn it off make sure it's still obvious that it's alink
+3.remember also include styles for :focus
+
+
+we can change th style of a link like any other elements by using a simple elememt selector
+
+a{
+    color:#f30
+}
+
+links have different states that we can style as well 
+default link state
+:visited
+:focus
+:hover
+:active
+note:when styleing this states the order does matters

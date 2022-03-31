@@ -1,0 +1,21 @@
+we can set our card componetnt center in the body. we can also give body a display flex like this
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: red;
+    border: 5px solid white; */
+}
+if we set background to body it actually fills up whole body but if we give border to body it actuqally fills up only the content inside the body so if we try to align our card center both horizontally and veritically, we can't align it center veritically but we can align center horizontally to fix this we have to add a min-height of 100vh to body simply like this so that the content inside body align center both veritically and horizontallly
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: red;
+    border: 5px solid white; */
+}

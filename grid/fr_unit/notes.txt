@@ -1,0 +1,7 @@
+thr fr unit
+------------------
+Getting rows and columns to behave more like flex items.
+The fr unit is used to distribute a fraction of the available space
+by using this for the size of a  grid-item,it becomes a flexible item and behaves musch like a flex items does when it's set to flex 1 1 auto
+
+it's the easiest way to create columns of equal sizes

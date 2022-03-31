@@ -1,0 +1,17 @@
+using translate over position absolute is better bcz it acts like visibiliy:hidden means it keeps the space of the element nothing affected in the flow
+
+
+.nav {
+    position: fixed;
+    background: #000;
+    width: 100%;/*setting this width is important to move the left too 100% from the vieport*/
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 100%;
+    transform: translateX(0);
+}
+
+.navigation-open {
+    transform: translateX(-100%);/*e set js to remove and add class */
+}

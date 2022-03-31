@@ -1,0 +1,24 @@
+some similarities to flexbox
+---------------------------------
+when defining our rowa (and sometimes our columns),we don't want to set an exactly height,we just want it to match the content.
+we cn do that by using auto keyword
+grid-template-row:50px auto
+
+in this case the row's height will be dictated by the grid item with the largest height
+
+if we don't declare a grid-template-row or if we hsve more rows than we have defined,they will default to auto
+but like flexbox grid items stretch by default,for example here i don't declare any rows
+  grid-template-columns: 150px 150px 200px;
+  
+  the height of grid items row is defined by the tallest items' height in this case for .big clas we set big padding so the height is same as big grid-item. so the grid-items in the same row will stretch as same height of the tallest grid-item
+  
+  we can control this behaviour by using align-items property. it's same as flex-start and flex-end but here we just name it as start and end
+  
+  
+  we also have justify-items property which controls the width of the grid-item, if we don't want to set our grid-items width to be stretch we can control it by using justify-items(here we target parent)
+  
+  we can also just like flexbox target individual grid-items ilke this
+  .start {
+  align-self: center;
+  justify-self: start;
+}

@@ -1,0 +1,17 @@
+with ems, if you are doing at font-size property,it looks at the parent
+but if you do at any other property like padding and margin,it no longer kooks at the parent instead it looks at the font size of the the element
+ /* em is relative to the font-size
+       of this element */ 
+       
+       
+.button {
+    display: inline-block;
+    background: #FFE600;
+    color: black;
+    padding: .5em 1.25em;
+    /* em is relative to the font-size
+       of this element means button element */
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 50px;
+}

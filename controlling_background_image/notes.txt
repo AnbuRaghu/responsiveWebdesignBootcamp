@@ -1,0 +1,11 @@
+controlling backgroungd images
+----------------------------------
+.cat {
+    padding:  100px;
+    background-image: url(images/email-pattern.png);
+    background-position: center;
+    background-size: cover;
+
+}
+
+most of the time we use this kind of setting on background image

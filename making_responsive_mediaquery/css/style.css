@@ -1,0 +1,137 @@
+body {
+    font-size: 1.125rem;
+    color: #707070;
+    margin: 0;
+}
+
+/* Typography */
+
+h1 {
+    font-size: 3rem;
+    color: #212614;
+    text-align: center;
+}
+
+h1 span {
+    color: #b7832f;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+p {
+    margin-top: 0;
+}
+
+
+/*  Layout  */
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    width: 95%;
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.columns {
+    display: flex;
+    justify-content: space-between;
+    margin: 1em 0;
+}
+
+/*@media (max-width: 600px) {
+    .columns {
+        flex-direction: column;
+    }
+    .col-1 {
+    width: 100%;
+}
+
+.col-2 {
+    width: 100%;
+}
+
+.col-3 {
+    width: 100%;    
+}
+/* if we do so  the.col modifier class won't work bcz in mediaquery looks for only max width of 600px but the below col-modifier class overwrites and always win becz it looks for all situation sizes so always order matters..so always mediaquery should come after the defaut selector we already have*/
+}*/
+
+.col-1 {
+    width: 20%;
+}
+
+.col-2 {
+    width: 45%;
+}
+
+.col-3 {
+    width: 70%;    
+}
+
+@media (max-width: 600px) {
+    .columns {
+        flex-direction: column;
+    }
+    .col-1 {
+    width: 100%;
+}
+
+.col-2 {
+    width: 100%;
+}
+
+.col-3 {
+    width: 100%;    
+}
+
+}
+.col-bg {
+    background: #212614;
+    color: #fff;
+    padding: 1em;
+}
+/* we can also write seperate mediaquery*/
+/*@media (max-width: 600px) {
+   
+    .col-1 {
+    width: 100%;
+}
+
+.col-2 {
+    width: 100%;
+}
+
+.col-3 {
+    width: 100%;    
+}
+
+we can also simplyfy this like this but prefered way is above
+.col {
+    width: 100%;
+}
+
+
+}*/
+/* here we write two time mq so lot of people write their mq right down all css style in one mq but kevin's prefered way is grouping mq*/
+@media (max-width: 600px) {
+    .columns {
+        flex-direction: column;
+    }
+    .col-1 {
+    width: 100%;
+}
+
+.col-2 {
+    width: 100%;
+}
+
+.col-3 {
+    width: 100%;    
+}
+
+}

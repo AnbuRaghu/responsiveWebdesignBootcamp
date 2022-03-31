@@ -1,0 +1,12 @@
+similar to flexbox,when we create a new grid container,the flex children will fall onto the grid
+the only real challange you'll see at first though,is that the msrgins no longer collapse.we have no dramatic making of columns like if we created a flex container
+
+to properly use grid, we need to define rows and columns or atleast one of them
+anytime we deal with grid-template-cplimn then we deal with the width of column, any time we deal with grid-template-row,we deal with height of the column
+
+we can use a short hand property instead of saying grid-column-template,grid-column-row
+body {
+    display: grid;
+    grid-template: 100px 400px / 250px 250px 250px;
+    /* the first one is row 2nd one is column*/
+}

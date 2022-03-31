@@ -1,0 +1,5 @@
+default of flex-basis is auto what it would do is it looks for the flex-items width in this case 200px if there is a width set then it uses that width else it fit the content of the flex-items
+    flex-basis is something is similar to setting a width
+    
+    *flex-basis is overwriting the width if we set but it won't overwrite the min-width max-width or min-height max-height
+    

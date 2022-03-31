@@ -1,0 +1,16 @@
+css units:
+-----------------
+there are different css units:
+1.Absolute units
+    pixels
+    pt,cm,mm,in,etc
+    
+2. Relative units
+    *there are 2 types of relative units
+        Relative to font-size:
+            em and rem
+
+         relative-to the viewport:
+            vw,vh,vmin,vmax
+            
+3.Percentages

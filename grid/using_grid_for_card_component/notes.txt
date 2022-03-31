@@ -1,0 +1,13 @@
+.card-img {
+    object-fit: cover;
+    grid-row: 1 / 2;
+    grid-column: 1 / -1;
+    width: 100%;
+    height: 100%;
+}
+in grid to set the image height and width issue, we cans set height and width as 100%,so that it sets the actual width and height of actual cell which they are
+and for creating like padding kind of things we can use an empty column  an empty row like in this example
+  grid-template: 200px 1em auto auto 100px 1em / 1em auto auto 1em;
+  and if we want to span a grid items npt more than one column we can use like this
+    grid-row: 5;
+    grid-column: 2; we don't have to give 2nd value like  grid-row: 5/6; by default it span one column

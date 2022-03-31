@@ -1,0 +1,36 @@
+to make the card-footer on arge screen set all the way down if we set in meadia query like this,it wont work as card footer is not the direct child of card to work as per flex box.
+@media (min-width: 600px) {
+    .card {
+        flex-direction: row;
+    }
+    
+    .card-img {
+        height: 300px;
+    }
+    
+    .card-footer {
+        margin-top: auto;
+    }
+}
+
+so we have to set the card-content which is the parent of card-footer as flex and it will work
+@media (min-width: 600px) {
+    .card {
+        flex-direction: row;
+    }
+    
+    .card-img {
+        height: 300px;
+    }
+    
+    .card-content {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .card-footer {
+        margin-top: auto;
+    }
+}
+
+ sometimes order of media query matters so be carefull with order

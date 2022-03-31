@@ -1,0 +1,10 @@
+Margin auto and flex-box
+align-self property is a kind of limitations for example if we switch the flex-direction, align-items property works left to right not top to bottom. so if we want to align somthing top to bottom we can use margin auto
+
+margin:0 auto, means top and bottom 0 LEFT AND RIGHT AUTO
+WE CAN SET margin-top:auto like in this example
+
+.flex-item-3 {
+    margin-top: auto;
+    margin-bottom: auto;
+}

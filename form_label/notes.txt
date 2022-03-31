@@ -1,0 +1,10 @@
+label:
+---------
+ <label for="lname">Last name:</label>
+            <input id="lname" type="text">
+            we can connect the input by for value but there is also an alternative way to use it that is to wrap the our input inside the label which gives the exact result like this
+            
+              <label>First name:
+                <input type="text">
+            </label>
+            but most preferd way is the 1st

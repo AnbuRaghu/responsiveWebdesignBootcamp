@@ -1,0 +1,9 @@
+Grid Gap
+---------------
+we can add gaps between our rows and columns with
+* grid-column-gap
+* grid-row-gap
+* grid-gap:shorthand
+
+ grid-gap: 0 2em; 0 is for row gap 2em for column-gap
+ onr thing is noticed grid gaps are not working starting and end side of the column. we can only create gap in between columns only that's y we use empty space as column to create gap from start and end

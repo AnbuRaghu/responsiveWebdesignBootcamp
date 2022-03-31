@@ -1,0 +1,23 @@
+dealing with largescreens solution 1
+-------------------------------------
+/* we set the max width for that to reduce the width on big screens*/
+
+to center an element which alreday set marginbottom and top
+
+/*IF WE HAD MARGIN TOP AND BOTTOM ALREADY SET THIS NOT OVERWRITING the margins BUT IF WE USE SHORTHAND MARGIN 0 AUTO IT WOULD BE OVERWRITTING THAT MARGIN TOP AND BOTTOM*/ not margin:0 auto;
+
+.intro * {
+    max-width: 400px;/* we set the max width for that to reduce the width on big screens*/
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+the safer version of the above selector is using > symbol
+
+.intro > *,
+.main-content > * {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}

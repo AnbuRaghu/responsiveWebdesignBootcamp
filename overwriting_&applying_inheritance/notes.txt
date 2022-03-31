@@ -1,0 +1,8 @@
+over-writing and applying inheritance
+----------------------------------------
+
+Links usually don't inherit their parents color, eventhough other inline elements like em and strong do.
+inks have default style on them, setting their color to blue, with the text decoration giving them the underline
+they do inherit other properties such as font-size and font-weight
+
+*heading by default don't inherit font-weight property bcz by default they are bold. once again you can overwrite it if you want

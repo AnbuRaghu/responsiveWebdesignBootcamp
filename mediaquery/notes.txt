@@ -1,0 +1,14 @@
+Media queries:
+-------------
+media queries let us add new styles that target only specific condition
+
+@media media-type and (media-features){}
+the media type let's us target different types of :-moz-user-disabled
+*screen @media screen(..)
+*print @media print(..)
+*speech @media speech(..)
+
+the media condition let's us target specific conditions within that media :first-of-type
+*widths : @media(min-width:600px){}
+*orientation : @media(orientation:landscape){}
+*specificfeatures : @media(hover){} //browser checks if the client is using desktop or not

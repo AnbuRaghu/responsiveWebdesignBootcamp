@@ -1,0 +1,20 @@
+borderbox:
+
+total width of some element is the content plus the padding of left and right plus the border of left and right plus the margin of left and right
+
+but border box means padding and border are included in the totla width of something instead of adding on top of the width of the element
+
+when we change box sizing to border box border and padding are included in the width of an element when we set it or included in the height of the element we set it.
+
+
+min-height:
+-------------
+
+to avoid nuisance on setting on something 100vh it's better to set min-height,so that it suits when we resize the browser in all cases instead of height
+   .intro,
+    .main-content {
+        width: 50%;
+         /* height: 100vh; */
+        min-height: 100vh; 
+    }
+}

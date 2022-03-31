@@ -1,0 +1,6 @@
+img {
+    max-width: 100%;
+    display: block; 
+}
+
+/* normally for img set these 2 things as i said image is a little bit of inline element we have to set it to block to avoid some tiny spacing*/

@@ -1,0 +1,5 @@
+background image
+how do you know if you should use an image or a background image??
+ the easiest way is to tell is do u have anything top of your image for example a text or something?
+ if no ? use regular image
+ if yes ? use a background image

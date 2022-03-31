@@ -1,0 +1,15 @@
+/* flex basis sets height when display set to row and it's set width when display set to column*/
+    
+    
+    but in this example if we set flexbasis on imagge flex bssis wont work. it's end up wit the bug 
+    to fix this we have set min height:o and min-width:0
+    if we set flex basis on image if we have problem alwasy set min-height:0 and min-width:0 to fix this
+    
+    .card-img {
+    object-fit: cover;
+    flex-basis: 200px;
+    min-width: 0;
+    min-height: 0;
+    
+    background: yellow;
+}

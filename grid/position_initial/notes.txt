@@ -1,0 +1,28 @@
+position initial
+--------------------
+/* it sets the element postion to it was laready*/
+
+e.g
+@media (min-width: 600px) {
+    .open-nav,
+    .close-nav {
+        display: none;
+    }
+    
+    .nav {
+        position: initial; /* it sets the element postion to it was laready*/
+    }
+    
+    .nav-list {
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    
+    .nav-item {
+        margin-left: 2em;
+    }
+    
+    .nav-link {
+        font-size: 1rem;
+    }
+}

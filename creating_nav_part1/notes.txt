@@ -1,0 +1,11 @@
+creating navigation
+------------------------
+All this flex stuff really comes into play when styling a responsive navigation for a site..
+Navigations are traditionally marked up using an unordered list,which is placed inside a <nav> element.It will look something like this
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About me</a></li>
+                    <li><a href="#">Recent posts</a></li>
+                </ul>
+            </nav>

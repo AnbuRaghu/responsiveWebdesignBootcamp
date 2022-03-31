@@ -1,0 +1,26 @@
+.hero {
+    display: grid;
+    grid-template-columns: minmax(1em, 2fr) minmax(0px, 500px) minmax(1em, 1fr);/* getting hero section center doing in grid-template-columns: and in like. below in grid-column*/
+    background-image: url(img/hero-bg.jpg);
+    color: #fff;
+}
+
+.hero > * {
+    grid-column: 2 / -2;
+}
+
+
+and we set the button as justify-self: start; as it's a grid item it's stretch to the entire column
+
+.btn {
+    padding: .5em 1.75em;
+    font-weight: 700;
+    margin-top: .5em;
+    text-decoration: none;
+}
+
+.btn-primary {
+    background: #FFE600;
+    color: #000;
+    justify-self: start;
+}

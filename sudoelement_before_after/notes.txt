@@ -1,0 +1,36 @@
+::before :: after
+  <h2 class="section-title">We can do all sorts of great stuff</h2>
+  
+  before sudo element doesn't add an element, after h2 element,it adds before the content for example if i add like this
+  
+  .section-title::after {
+    content: "abc";
+    display: block;
+}
+
+it wont add abc after h2 tag like this
+  <h2 class="section-title">We can do all sorts of great stuff</h2>
+  abc
+  
+  but like ths
+    <h2 class="section-title"> We can do all sorts of great stuff  abc </h2>
+  
+  
+  
+  like wise for ::before too
+  
+  
+   .section-title::before {
+    content: "abc";
+    display: block;
+}
+
+it wont add abc before h2 tag like this
+
+  abc
+  <h2 class="section-title">We can do all sorts of great stuff</h2>
+
+
+ but like ths
+    <h2 class="section-title"> abc  We can do all sorts of great stuff  </h2>
+  

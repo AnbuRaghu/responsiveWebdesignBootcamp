@@ -1,0 +1,3 @@
+in generel,it's considered as good practice,if we have a section to have a title in that section. you could actually put a <header> <h2></h2></header> this will be considered the header of the scection but the main header is considered the main header of the entire page.
+
+per page it should only have one h1 not per website per page
